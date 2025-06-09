@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/Library/Symbols/keebio-components-master/keebio.lib")(options "")(descr ""))
+  (lib (name "Seeeduino XIAO")(type "Legacy")(uri "${KIPRJMOD}/Library/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+)
