@@ -2911,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 53.34 53.34 0)
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 93.98 161.29 0)
 			(effects
 				(font
@@ -3235,7 +3235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -3573,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 151.13 142.24 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -3957,7 +3957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 73.66 72.39 0)
 			(effects
 				(font
@@ -4119,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -4193,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 147.32 91.44 0)
 			(effects
 				(font
@@ -4267,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 93.98 142.24 0)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 113.03 142.24 0)
 			(effects
 				(font
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 129.54 91.44 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 129.54 53.34 0)
 			(effects
 				(font
@@ -5753,7 +5753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 92.71 72.39 0)
 			(effects
 				(font
@@ -5915,7 +5915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 31.75 53.34 0)
 			(effects
 				(font
@@ -5989,7 +5989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 111.76 72.39 0)
 			(effects
 				(font
@@ -6063,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 130.81 161.29 0)
 			(effects
 				(font
@@ -6137,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 129.54 72.39 0)
 			(effects
 				(font
@@ -6299,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 73.66 35.56 0)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 72.39 181.61 0)
 			(effects
 				(font
@@ -7225,7 +7225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 54.61 181.61 0)
 			(effects
 				(font
@@ -7299,7 +7299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -7535,7 +7535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 74.93 124.46 0)
 			(effects
 				(font
@@ -7947,7 +7947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 113.03 124.46 0)
 			(effects
 				(font
@@ -8021,7 +8021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 92.71 53.34 0)
 			(effects
 				(font
@@ -8095,7 +8095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 130.81 142.24 0)
 			(effects
 				(font
@@ -8169,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 92.71 35.56 0)
 			(effects
 				(font
@@ -8243,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -8757,7 +8757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 73.66 53.34 0)
 			(effects
 				(font
@@ -8955,7 +8955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
 			(at 74.93 142.24 0)
 			(effects
 				(font
