@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -118,10 +122,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -167,6 +171,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Seeeduino XIAO:SeeeduinoXIAO"
 			(pin_names
@@ -251,186 +256,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -3.81 180)
-					(length 2.54)
-					(name "PA5_A9_D9_MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "PA6_A10_D10_MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 3.81 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 11.43 180)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -21.59 90)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -21.59 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 22.86 270)
-					(length 2.54)
-					(name "PA31_SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 22.86 270)
-					(length 2.54)
-					(name "PA30_SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 22.86 270)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -21.59 7.62 0)
 					(length 2.54)
 					(name "PA4_A1_D1"
@@ -441,24 +266,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 22.86 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,17 +363,197 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 20.32 -11.43 180)
+				(pin input line
+					(at -5.08 22.86 270)
 					(length 2.54)
-					(name "PB09_A7_D7_RX"
+					(name "PA31_SWDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -21.59 90)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 22.86 270)
+					(length 2.54)
+					(name "PA30_SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 22.86 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 3.81 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "PA6_A10_D10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -3.81 180)
+					(length 2.54)
+					(name "PA5_A9_D9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -592,11 +579,32 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "PB09_A7_D7_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "keebio:MX_LED"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -652,9 +660,10 @@
 				)
 			)
 			(symbol "MX_LED_1_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type solid)
@@ -663,10 +672,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type solid)
@@ -738,7 +746,7 @@
 			(symbol "MX_LED_2_1"
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -762,7 +770,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+						(xy 1.27 -1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -833,6 +841,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -920,6 +929,18 @@
 		(uuid "3b79df46-46e4-477e-bfc8-8d4bad3ed79e")
 	)
 	(junction
+		(at 48.26 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b9f71ff-652a-4da1-8806-bf1efadd3a46")
+	)
+	(junction
+		(at 48.26 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42288454-5d5a-4c51-8fa6-6805d8c6c355")
+	)
+	(junction
 		(at 80.01 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -968,22 +989,10 @@
 		(uuid "6efc5b08-8e4f-4b91-94c2-57b4871848c6")
 	)
 	(junction
-		(at 48.26 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71907a45-c2e8-45fa-a492-1051df3aa827")
-	)
-	(junction
 		(at 99.06 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c6cccc-31cb-4c25-903b-aaaf99bfcdc3")
-	)
-	(junction
-		(at 48.26 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73231884-42b3-44ce-9f22-595e077339b6")
 	)
 	(junction
 		(at 59.69 132.08)
@@ -1040,12 +1049,6 @@
 		(uuid "8f69c827-eadc-411c-868b-8d2989b1a7a9")
 	)
 	(junction
-		(at 48.26 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fc09178-5465-41ea-af66-1fd5f57ee119")
-	)
-	(junction
 		(at 69.85 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1068,6 +1071,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c17261b-adac-45e3-a4ab-c90d1726ce44")
+	)
+	(junction
+		(at 48.26 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c224647-e037-4e3f-a304-1b7e0e0071d2")
 	)
 	(junction
 		(at 118.11 149.86)
@@ -1242,16 +1251,6 @@
 			(type default)
 		)
 		(uuid "090e2926-e57b-4534-b1b0-6554e84f18eb")
-	)
-	(wire
-		(pts
-			(xy 48.26 35.56) (xy 48.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "093aa706-1473-4168-b87d-792525f8570f")
 	)
 	(wire
 		(pts
@@ -1515,6 +1514,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 72.39) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4cf5a4-8886-440f-9258-32eed6e54f17")
+	)
+	(wire
+		(pts
 			(xy 134.62 60.96) (xy 162.56 60.96)
 		)
 		(stroke
@@ -1552,16 +1561,6 @@
 			(type default)
 		)
 		(uuid "6473c7de-9d03-458a-8f19-fe29f982f57a")
-	)
-	(wire
-		(pts
-			(xy 48.26 72.39) (xy 26.67 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e53089-ab84-42d8-b75b-ec4421701dcf")
 	)
 	(wire
 		(pts
@@ -1635,6 +1634,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 53.34) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e1135f-3a67-4c53-a7e1-ce181b7db8e7")
+	)
+	(wire
+		(pts
 			(xy 41.91 189.23) (xy 59.69 189.23)
 		)
 		(stroke
@@ -1692,6 +1701,16 @@
 			(type default)
 		)
 		(uuid "808263c6-721e-4603-b71f-1d327bee45d2")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 48.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b99e58-7a07-4f6b-96d3-d1129b98a6b1")
 	)
 	(wire
 		(pts
@@ -1855,16 +1874,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 48.26 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a68072f3-c1d0-4d0f-812c-74074e1df749")
-	)
-	(wire
-		(pts
 			(xy 134.62 80.01) (xy 162.56 80.01)
 		)
 		(stroke
@@ -1945,13 +1954,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 72.39) (xy 26.67 53.34)
+			(xy 26.67 53.34) (xy 26.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8793ebc-ddab-4dd1-9221-c135d3104ed8")
+		(uuid "bfbec8f5-cef6-4168-9e27-e6ff3735cef6")
 	)
 	(wire
 		(pts
@@ -2015,6 +2024,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 24.13) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd705ba7-076e-4713-949c-bffdb94db753")
+	)
+	(wire
+		(pts
 			(xy 59.69 132.08) (xy 80.01 132.08)
 		)
 		(stroke
@@ -2075,16 +2094,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 24.13) (xy 48.26 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72c3d85-6604-435f-a9d1-69bdce08be3d")
-	)
-	(wire
-		(pts
 			(xy 116.84 43.18) (xy 134.62 43.18)
 		)
 		(stroke
@@ -2115,7 +2124,7 @@
 			)
 		)
 	)
-	(global_label "col1"
+	(global_label "col1-1"
 		(shape input)
 		(at 69.85 113.03 90)
 		(fields_autoplaced yes)
@@ -2127,7 +2136,7 @@
 		)
 		(uuid "14776410-541c-4944-9aa0-d31a73d49b2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 105.9325 90)
+			(at 69.85 103.1506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,29 +2146,7 @@
 			)
 		)
 	)
-	(global_label "col0"
-		(shape input)
-		(at 209.55 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e9c5f14-2642-4210-b8b2-af139c8271ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.4525 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row1"
+	(global_label "col1-1"
 		(shape input)
 		(at 209.55 128.27 180)
 		(fields_autoplaced yes)
@@ -2169,9 +2156,31 @@
 			)
 			(justify right)
 		)
-		(uuid "264e6f7f-88c0-4532-bba8-832aef56d61c")
+		(uuid "242dc9ac-5360-4c9d-bce8-431a357cf001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0896 128.27 0)
+			(at 199.6706 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2-1"
+		(shape input)
+		(at 209.55 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25cffd6f-ed0c-43ce-916a-6bdf2f328323")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.6706 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,29 +2192,7 @@
 	)
 	(global_label "row3"
 		(shape input)
-		(at 208.28 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "272489c3-3a4b-400f-99b5-f2ad524ad990")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8196 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col4"
-		(shape input)
-		(at 251.46 139.7 0)
+		(at 250.19 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2213,9 +2200,9 @@
 			)
 			(justify left)
 		)
-		(uuid "33f8d5c9-3c78-42a9-ad68-8aa3ef8e6e44")
+		(uuid "272489c3-3a4b-400f-99b5-f2ad524ad990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.5575 139.7 0)
+			(at 257.6504 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,29 +2212,7 @@
 			)
 		)
 	)
-	(global_label "row2"
-		(shape input)
-		(at 209.55 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3753d81c-8019-4d62-aab4-31ef50503270")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0896 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col4"
+	(global_label "col4-1"
 		(shape input)
 		(at 125.73 113.03 90)
 		(fields_autoplaced yes)
@@ -2259,34 +2224,12 @@
 		)
 		(uuid "394ad655-5d3a-4527-8fed-6ff8ed3c8e27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 105.9325 90)
+			(at 125.73 103.1506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 209.55 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39723059-1b36-4cdc-874d-8f11fa3cc2e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0896 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2304,6 +2247,28 @@
 		(uuid "3cc8d78a-d2cf-4e68-add8-c80f7b193891")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.46 17.0325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0-1"
+		(shape input)
+		(at 251.46 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd55eb9-12f5-4604-a216-66a07ed61d91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.7023 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2300,7 @@
 			)
 		)
 	)
-	(global_label "row3"
+	(global_label "row3-1"
 		(shape input)
 		(at 27.94 189.23 180)
 		(fields_autoplaced yes)
@@ -2347,7 +2312,7 @@
 		)
 		(uuid "4b3b4a7d-76c2-4fc5-b9fa-743ec5da5995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4796 189.23 0)
+			(at 17.6977 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,22 +2324,22 @@
 	)
 	(global_label "col3"
 		(shape input)
-		(at 250.19 54.61 0)
+		(at 208.28 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4b9c8ae5-bd35-4b91-80b7-b2af2a70d7e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.2875 54.61 0)
+			(at 201.1825 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2403,7 +2368,7 @@
 	)
 	(global_label "col1"
 		(shape input)
-		(at 208.28 62.23 180)
+		(at 208.28 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2413,7 +2378,7 @@
 		)
 		(uuid "66922402-a5e1-40c6-9b43-12ccd8957d42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1825 62.23 0)
+			(at 201.1825 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2388,7 @@
 			)
 		)
 	)
-	(global_label "col0"
+	(global_label "col0-1"
 		(shape input)
 		(at 49.53 113.03 90)
 		(fields_autoplaced yes)
@@ -2435,7 +2400,7 @@
 		)
 		(uuid "75a8b949-1f48-41f9-ac50-581559e4cd1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 105.9325 90)
+			(at 49.53 103.1506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2412,7 @@
 	)
 	(global_label "row0"
 		(shape input)
-		(at 208.28 43.18 180)
+		(at 260.35 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2457,7 +2422,7 @@
 		)
 		(uuid "7ac6997c-e198-4dce-8bc4-4bde9493eeb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8196 43.18 0)
+			(at 252.8896 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2432,7 @@
 			)
 		)
 	)
-	(global_label "col2"
+	(global_label "col2-1"
 		(shape input)
 		(at 88.9 113.03 90)
 		(fields_autoplaced yes)
@@ -2479,12 +2444,34 @@
 		)
 		(uuid "82613e0b-078a-4747-b5f4-65368fac4c58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 105.9325 90)
+			(at 88.9 103.1506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3-1"
+		(shape input)
+		(at 209.55 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86e7bb83-4269-4c52-b63f-c86cdeae84fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.6706 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2513,22 +2500,22 @@
 	)
 	(global_label "col4"
 		(shape input)
-		(at 250.19 58.42 0)
+		(at 208.28 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "975c5ec4-3ace-4feb-acd9-fb79aa1c3903")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.2875 58.42 0)
+			(at 201.1825 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2555,7 +2542,29 @@
 			)
 		)
 	)
-	(global_label "row1"
+	(global_label "row3-1"
+		(shape input)
+		(at 251.46 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a410ca34-ea30-4da6-932b-a20290c7a21f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.7023 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1-1"
 		(shape input)
 		(at 27.94 149.86 180)
 		(fields_autoplaced yes)
@@ -2567,7 +2576,7 @@
 		)
 		(uuid "a6042f2c-886c-4a2f-86fa-6440dcadaab3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4796 149.86 0)
+			(at 17.6977 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2588,7 @@
 	)
 	(global_label "row1"
 		(shape input)
-		(at 208.28 46.99 180)
+		(at 262.89 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2589,29 +2598,7 @@
 		)
 		(uuid "b4820128-0ee4-42ca-878d-1ca1cc4fcd46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8196 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row3"
-		(shape input)
-		(at 209.55 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b92c0007-06b5-4af8-850e-0ba2e6310a95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0896 135.89 0)
+			(at 255.4296 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2630,7 @@
 			)
 		)
 	)
-	(global_label "row2"
+	(global_label "row2-1"
 		(shape input)
 		(at 27.94 168.91 180)
 		(fields_autoplaced yes)
@@ -2655,7 +2642,7 @@
 		)
 		(uuid "d0585782-20f5-40eb-a91d-272fa1a47865")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4796 168.91 0)
+			(at 17.6977 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,51 +2652,7 @@
 			)
 		)
 	)
-	(global_label "col3"
-		(shape input)
-		(at 251.46 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5dd2e0e-aa7a-4693-80d6-0dadeaf14728")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.5575 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 209.55 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6d0cfee-da53-4eb8-ab5f-d8ddc22d7773")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.4525 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row0"
+	(global_label "row0-1"
 		(shape input)
 		(at 27.94 132.08 180)
 		(fields_autoplaced yes)
@@ -2721,7 +2664,73 @@
 		)
 		(uuid "d6d0ff67-86e2-483d-b061-39b943a85c38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4796 132.08 0)
+			(at 17.6977 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2-1"
+		(shape input)
+		(at 251.46 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8ed1448-0aeb-43b6-b8a5-b2ea58ecfdc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.7023 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0-1"
+		(shape input)
+		(at 209.55 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd8e5462-9ec3-4981-9f26-bb7d5d889a80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.6706 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4-1"
+		(shape input)
+		(at 209.55 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1a425a3-9d69-46bd-a5a4-1add6b8de8ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.6706 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2742,7 @@
 	)
 	(global_label "row2"
 		(shape input)
-		(at 208.28 50.8 180)
+		(at 264.16 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2743,7 +2752,7 @@
 		)
 		(uuid "e4a345bc-359e-4057-bf5c-e693d78ee089")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8196 50.8 0)
+			(at 256.6996 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,24 +2762,24 @@
 			)
 		)
 	)
-	(global_label "col2"
+	(global_label "row1-1"
 		(shape input)
-		(at 209.55 147.32 180)
+		(at 251.46 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "eea1b861-f654-4ac1-93bb-0d7a686d26c1")
+		(uuid "f308c77a-04cc-4e4f-88d7-f62436423b52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.4525 147.32 0)
+			(at 261.7023 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2797,7 +2806,7 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "col3-1"
 		(shape input)
 		(at 107.95 113.03 90)
 		(fields_autoplaced yes)
@@ -2809,7 +2818,7 @@
 		)
 		(uuid "f990015f-8d66-4760-a6f1-ad15ae7fa318")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 105.9325 90)
+			(at 107.95 103.1506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2874,7 @@
 	)
 	(global_label "col2"
 		(shape input)
-		(at 208.28 66.04 180)
+		(at 208.28 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2875,7 +2884,7 @@
 		)
 		(uuid "ffaa5eb9-7862-4279-a98c-90b7ecde23e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1825 66.04 0)
+			(at 201.1825 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4877ee-e3b3-4446-9f0b-df9c5fb907bf")
-		(property "Reference" "SW1"
+		(property "Reference" "SW7"
 			(at 53.34 44.45 0)
 			(effects
 				(font
@@ -2911,7 +2920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 53.34 53.34 0)
 			(effects
 				(font
@@ -2953,7 +2962,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW1")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -2987,7 +2996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 77.47 185.42 0)
 			(effects
 				(font
@@ -3057,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15243257-1b19-4469-8fc0-30a47f1afc8f")
-		(property "Reference" "SW29"
+		(property "Reference" "SW33"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -3073,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 93.98 161.29 0)
 			(effects
 				(font
@@ -3115,7 +3124,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW29")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -3131,7 +3140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "155caeee-141f-4725-b473-6261ff0d94ff")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 154.94 93.9799 90)
 			(effects
 				(font
@@ -3149,7 +3158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 152.4 95.25 0)
 			(effects
 				(font
@@ -3203,7 +3212,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3219,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b31c5f9-4785-471d-9293-2d67a5f669c7")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 53.34 26.67 0)
 			(effects
 				(font
@@ -3235,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -3266,10 +3275,10 @@
 			(uuid "b613f595-599b-453c-a71f-b04d74731abd")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db004")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646ff")
 		)
 		(pin "1"
 			(uuid "9dfb6ee8-b8a4-497c-94b4-c37a0723f884")
@@ -3277,7 +3286,7 @@
 		(instances
 			(project ""
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3293,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dcf46bd-4c21-4dd4-b1c7-20802d15f443")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 100.33 38.0999 90)
 			(effects
 				(font
@@ -3311,7 +3320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -3365,7 +3374,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3381,7 +3390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fb00e5c-6aef-418b-8a3f-0e80b5f32e72")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 119.38 55.8799 90)
 			(effects
 				(font
@@ -3399,7 +3408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 116.84 57.15 0)
 			(effects
 				(font
@@ -3453,7 +3462,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3469,7 +3478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "208a39a0-8638-4fa8-a688-22e04d75238e")
-		(property "Reference" "D3"
+		(property "Reference" "D12"
 			(at 60.96 74.9299 90)
 			(effects
 				(font
@@ -3487,7 +3496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 58.42 76.2 0)
 			(effects
 				(font
@@ -3541,7 +3550,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D3")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2167a15a-acaa-4601-82e3-c4bc6428ed06")
-		(property "Reference" "SW26"
+		(property "Reference" "SW32"
 			(at 74.93 152.4 0)
 			(effects
 				(font
@@ -3573,7 +3582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -3615,7 +3624,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW26")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c4581c-2e47-42ef-9c11-d385c64779b2")
-		(property "Reference" "SW32"
+		(property "Reference" "SW34"
 			(at 113.03 152.4 0)
 			(effects
 				(font
@@ -3647,7 +3656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -3689,7 +3698,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW32")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -3705,7 +3714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238458d3-e166-4744-aaed-e294e1d965c8")
-		(property "Reference" "SW20"
+		(property "Reference" "SW30"
 			(at 151.13 133.35 0)
 			(effects
 				(font
@@ -3721,7 +3730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 151.13 142.24 0)
 			(effects
 				(font
@@ -3763,7 +3772,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW20")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -3779,7 +3788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f7c5de-0e03-4c5c-8e9c-0406a7e68e85")
-		(property "Reference" "D30"
+		(property "Reference" "D23"
 			(at 120.65 126.9999 90)
 			(effects
 				(font
@@ -3797,7 +3806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -3851,7 +3860,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D30")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -3867,7 +3876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a1ed226-c18e-489f-a34b-f437128b755f")
-		(property "Reference" "SW34"
+		(property "Reference" "SW24"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -3883,7 +3892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -3925,7 +3934,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW34")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -3941,7 +3950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a5aaff6-7886-4faa-81b9-4a134d0734e1")
-		(property "Reference" "SW6"
+		(property "Reference" "SW13"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -3957,7 +3966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 73.66 72.39 0)
 			(effects
 				(font
@@ -3988,10 +3997,10 @@
 			(uuid "5b06176e-c4e2-472c-9948-af865b0e760d")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db006")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164701")
 		)
 		(pin "1"
 			(uuid "ad4705ef-49e8-4b93-ac1a-4659d772df82")
@@ -3999,7 +4008,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW6")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -4015,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c3061b5-8d8f-4a53-bd69-1d6a139800ba")
-		(property "Reference" "D10"
+		(property "Reference" "D4"
 			(at 119.38 38.0999 90)
 			(effects
 				(font
@@ -4033,7 +4042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 116.84 39.37 0)
 			(effects
 				(font
@@ -4087,7 +4096,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D10")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "360fa863-c935-49ab-9765-2c35adfa428a")
-		(property "Reference" "SW33"
+		(property "Reference" "SW36"
 			(at 36.83 172.72 0)
 			(effects
 				(font
@@ -4119,7 +4128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -4161,7 +4170,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW33")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -4177,7 +4186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "377d0550-b801-47b2-b33c-3fbcdfee43d6")
-		(property "Reference" "SW18"
+		(property "Reference" "SW19"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -4193,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 147.32 91.44 0)
 			(effects
 				(font
@@ -4224,10 +4233,10 @@
 			(uuid "59b44bbd-402f-4fa1-b6b4-3d7fdc6abe74")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db007")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164702")
 		)
 		(pin "1"
 			(uuid "a8d378e1-50a5-4cbc-b500-87b2748563e5")
@@ -4235,7 +4244,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW18")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -4251,7 +4260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ee2e20-9ac8-4709-bd98-d032f68895b9")
-		(property "Reference" "SW28"
+		(property "Reference" "SW27"
 			(at 93.98 133.35 0)
 			(effects
 				(font
@@ -4267,7 +4276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 93.98 142.24 0)
 			(effects
 				(font
@@ -4309,7 +4318,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW28")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d737181-ab4e-4527-ac28-8373d4eeeb9c")
-		(property "Reference" "SW13"
+		(property "Reference" "SW5"
 			(at 129.54 26.67 0)
 			(effects
 				(font
@@ -4341,7 +4350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -4372,10 +4381,10 @@
 			(uuid "8c397843-aff0-4a4a-9f56-439456961ef8")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db005")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db009")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164700")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164704")
 		)
 		(pin "1"
 			(uuid "6f14c39d-01e0-4e9a-bde9-6eab446f97a0")
@@ -4383,7 +4392,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW13")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4417,7 +4426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -4487,7 +4496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40d55279-3b76-47a7-8b40-7f55538fedb6")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 137.16 74.9299 90)
 			(effects
 				(font
@@ -4505,7 +4514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -4559,7 +4568,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4575,7 +4584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44256e5e-2591-4156-b8a1-29c5d0107514")
-		(property "Reference" "D33"
+		(property "Reference" "D36"
 			(at 44.45 184.1499 90)
 			(effects
 				(font
@@ -4593,7 +4602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 41.91 185.42 0)
 			(effects
 				(font
@@ -4647,7 +4656,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D33")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -4663,7 +4672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e595ac-83f4-4735-8348-25d38426dba1")
-		(property "Reference" "SW10"
+		(property "Reference" "SW4"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -4679,7 +4688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -4710,10 +4719,10 @@
 			(uuid "ac2736b8-54e8-46fe-a4af-3794c7974023")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db005")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db00c")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164700")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164707")
 		)
 		(pin "1"
 			(uuid "4a223d06-2d46-4eb4-aafb-a94e5c812cfb")
@@ -4721,7 +4730,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW10")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477fba4e-3d83-4fa2-8aff-692db98234fb")
-		(property "Reference" "D29"
+		(property "Reference" "D33"
 			(at 101.6 163.8299 90)
 			(effects
 				(font
@@ -4755,7 +4764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 99.06 165.1 0)
 			(effects
 				(font
@@ -4809,7 +4818,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D29")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4825,7 +4834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49fd6e46-e83c-4d5a-ac60-b69953b2ae0f")
-		(property "Reference" "SW11"
+		(property "Reference" "SW10"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -4841,7 +4850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -4872,10 +4881,10 @@
 			(uuid "0f2041ef-9801-470a-85ee-2f027d6788e6")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db004")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db00d")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646ff")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164708")
 		)
 		(pin "1"
 			(uuid "0429c27a-8068-4b0c-8eef-d17ec7cd97ab")
@@ -4883,7 +4892,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW11")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 59.69 185.42 0)
 			(effects
 				(font
@@ -4987,7 +4996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524533ad-5e88-4833-901d-f3e1da81c6cc")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 60.96 55.8799 90)
 			(effects
 				(font
@@ -5005,7 +5014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -5059,7 +5068,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5406bfbe-1408-4fcd-9842-c00165bce690")
-		(property "Reference" "SW31"
+		(property "Reference" "SW28"
 			(at 113.03 133.35 0)
 			(effects
 				(font
@@ -5091,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 113.03 142.24 0)
 			(effects
 				(font
@@ -5122,10 +5131,10 @@
 			(uuid "7f2171d9-a9a8-4040-914e-a58f0f55bf38")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db009")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db00f")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164704")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470a")
 		)
 		(pin "1"
 			(uuid "3c0521ca-7616-4046-bb8e-077935c7c358")
@@ -5133,7 +5142,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW31")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -5149,7 +5158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "573c7ae3-81c9-46e6-a62d-ab11e13f6650")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 100.33 55.8799 90)
 			(effects
 				(font
@@ -5167,7 +5176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -5221,7 +5230,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5237,7 +5246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d859a4d-b91d-4b13-8f93-add580ea9c49")
-		(property "Reference" "SW17"
+		(property "Reference" "SW18"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -5253,7 +5262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 129.54 91.44 0)
 			(effects
 				(font
@@ -5284,10 +5293,10 @@
 			(uuid "b06474e2-6105-4b4a-a845-da73d48690f6")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db012")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470d")
 		)
 		(pin "1"
 			(uuid "30fd28b4-9ed3-40b4-af66-dfe39f5cd62c")
@@ -5295,7 +5304,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW17")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -5311,7 +5320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e307cac-aba9-4eac-94b9-1341793ea71a")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 81.28 38.0999 90)
 			(effects
 				(font
@@ -5329,7 +5338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -5383,7 +5392,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61316c20-5efc-469e-aab5-999a7c0390c7")
-		(property "Reference" "D26"
+		(property "Reference" "D32"
 			(at 82.55 163.8299 90)
 			(effects
 				(font
@@ -5417,7 +5426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 80.01 165.1 0)
 			(effects
 				(font
@@ -5471,7 +5480,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D26")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ce92a0-0830-48c1-bf53-47d7150324e5")
-		(property "Reference" "D16"
+		(property "Reference" "D6"
 			(at 39.37 55.8799 90)
 			(effects
 				(font
@@ -5505,7 +5514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 36.83 57.15 0)
 			(effects
 				(font
@@ -5559,7 +5568,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D16")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69a314b2-290b-49bb-925a-48ecc3600886")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 62.23 126.9999 90)
 			(effects
 				(font
@@ -5593,7 +5602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 59.69 128.27 0)
 			(effects
 				(font
@@ -5647,7 +5656,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D21")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -5663,7 +5672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69b70b03-e454-42b7-a0c9-781aaca268c5")
-		(property "Reference" "SW14"
+		(property "Reference" "SW11"
 			(at 129.54 44.45 0)
 			(effects
 				(font
@@ -5679,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 129.54 53.34 0)
 			(effects
 				(font
@@ -5710,10 +5719,10 @@
 			(uuid "efb1076c-d023-4d6f-b23a-b0a9805d81aa")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db004")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db013")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646ff")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470e")
 		)
 		(pin "1"
 			(uuid "50a61631-4155-4b00-aef0-70845c350fdd")
@@ -5721,7 +5730,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW14")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -5737,7 +5746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db41018-50d5-4044-b465-a17bfd0c7b31")
-		(property "Reference" "SW9"
+		(property "Reference" "SW14"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -5753,7 +5762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 92.71 72.39 0)
 			(effects
 				(font
@@ -5784,10 +5793,10 @@
 			(uuid "662611bf-299f-409c-85b9-02efbea3dbbe")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db014")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470f")
 		)
 		(pin "1"
 			(uuid "7bc3d124-b6e0-47bb-8478-1807e4c15670")
@@ -5795,7 +5804,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW9")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -5811,7 +5820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7602c520-5838-4e87-b2a8-8bb945faf747")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 137.16 38.0999 90)
 			(effects
 				(font
@@ -5829,7 +5838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 134.62 39.37 0)
 			(effects
 				(font
@@ -5883,7 +5892,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5899,7 +5908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7639be82-3a85-43e7-bf25-6748861d2e23")
-		(property "Reference" "SW16"
+		(property "Reference" "SW6"
 			(at 31.75 44.45 0)
 			(effects
 				(font
@@ -5915,7 +5924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 31.75 53.34 0)
 			(effects
 				(font
@@ -5946,10 +5955,10 @@
 			(uuid "d1b08287-8f16-4e37-b604-463a9c388817")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db015")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164710")
 		)
 		(pin "1"
 			(uuid "460b9a59-25c0-47f5-9a38-3733329e4510")
@@ -5957,7 +5966,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW16")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5973,7 +5982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7843c44f-67ff-4514-bc43-43b5ff1b1f75")
-		(property "Reference" "SW12"
+		(property "Reference" "SW15"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -5989,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 111.76 72.39 0)
 			(effects
 				(font
@@ -6020,10 +6029,10 @@
 			(uuid "8b2bf541-43f0-4f04-8561-22ca2438c31c")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db016")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164711")
 		)
 		(pin "1"
 			(uuid "81348971-2900-4307-a1d0-bc685a98856e")
@@ -6031,7 +6040,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW12")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd2f477-d90a-451f-985b-f9be342cf613")
-		(property "Reference" "SW36"
+		(property "Reference" "SW35"
 			(at 130.81 152.4 0)
 			(effects
 				(font
@@ -6063,7 +6072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 130.81 161.29 0)
 			(effects
 				(font
@@ -6094,10 +6103,10 @@
 			(uuid "814a18d9-c8d0-4e78-afbc-02536e72c79c")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db00f")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db017")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470a")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164712")
 		)
 		(pin "1"
 			(uuid "fb464567-04d7-4ac1-b81b-b54be1f1cbaa")
@@ -6105,7 +6114,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW36")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6f6b8e-4c20-4425-b91e-b705d5a6426b")
-		(property "Reference" "SW15"
+		(property "Reference" "SW16"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -6137,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 129.54 72.39 0)
 			(effects
 				(font
@@ -6168,10 +6177,10 @@
 			(uuid "a3e47921-21e4-4b85-81ed-fa7861121d77")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db018")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164713")
 		)
 		(pin "1"
 			(uuid "d8076646-7d4d-44b7-a727-e7c396b604e3")
@@ -6179,7 +6188,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW15")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -6195,7 +6204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cfa8f2-f8c9-463e-99ee-f72ec00664ad")
-		(property "Reference" "D12"
+		(property "Reference" "D15"
 			(at 119.38 74.9299 90)
 			(effects
 				(font
@@ -6213,7 +6222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 116.84 76.2 0)
 			(effects
 				(font
@@ -6267,7 +6276,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D12")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6283,7 +6292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83ddfe36-32fa-4d81-8a25-32b6ed4b2531")
-		(property "Reference" "SW19"
+		(property "Reference" "SW17"
 			(at 111.76 82.55 0)
 			(effects
 				(font
@@ -6299,7 +6308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -6330,10 +6339,10 @@
 			(uuid "5409c56a-ef98-4b4b-ad29-be1599acbe2e")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db019")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164714")
 		)
 		(pin "1"
 			(uuid "776d4b79-4da0-45a1-b223-65b286431e7f")
@@ -6341,7 +6350,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW19")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -6357,7 +6366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88db0ae3-8270-4474-83c4-69e25c754c9e")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 81.28 55.8799 90)
 			(effects
 				(font
@@ -6375,7 +6384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 78.74 57.15 0)
 			(effects
 				(font
@@ -6429,7 +6438,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6445,7 +6454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e15c0e4-1a72-48c8-8b28-149e05b29c17")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 73.66 26.67 0)
 			(effects
 				(font
@@ -6461,7 +6470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 73.66 35.56 0)
 			(effects
 				(font
@@ -6492,10 +6501,10 @@
 			(uuid "7bdd4e3d-c538-4b98-a830-5d8d7d083077")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db005")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db01a")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164700")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164715")
 		)
 		(pin "1"
 			(uuid "7b860bce-7828-4abd-b28c-c4a44d582d98")
@@ -6503,7 +6512,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6519,7 +6528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9812d667-3416-4cc2-b2fe-d891d4682fe7")
-		(property "Reference" "D20"
+		(property "Reference" "D30"
 			(at 158.75 144.7799 90)
 			(effects
 				(font
@@ -6537,7 +6546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 156.21 146.05 0)
 			(effects
 				(font
@@ -6591,7 +6600,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D20")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -6607,7 +6616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9830f74e-8e26-4ad0-83df-e920ed3be795")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 101.6 144.7799 90)
 			(effects
 				(font
@@ -6625,7 +6634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -6679,7 +6688,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -6695,7 +6704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c3c9cc8-ad27-4e9f-bcd4-ee6dd24a6d24")
-		(property "Reference" "D27"
+		(property "Reference" "D22"
 			(at 101.6 126.9999 90)
 			(effects
 				(font
@@ -6713,7 +6722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 99.06 128.27 0)
 			(effects
 				(font
@@ -6767,7 +6776,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D27")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6783,7 +6792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e679c64-e380-4e3c-80e7-542df3ccb08b")
-		(property "Reference" "D23"
+		(property "Reference" "D31"
 			(at 62.23 163.8299 90)
 			(effects
 				(font
@@ -6801,7 +6810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 59.69 165.1 0)
 			(effects
 				(font
@@ -6855,7 +6864,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D23")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -6871,7 +6880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab2ee3a2-21d3-4abc-8514-8e1f9573320e")
-		(property "Reference" "D31"
+		(property "Reference" "D28"
 			(at 120.65 144.7799 90)
 			(effects
 				(font
@@ -6889,7 +6898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 118.11 146.05 0)
 			(effects
 				(font
@@ -6943,7 +6952,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D31")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae8b9512-6714-4db7-9322-aa2d9646683a")
-		(property "Reference" "D9"
+		(property "Reference" "D14"
 			(at 100.33 74.9299 90)
 			(effects
 				(font
@@ -6977,7 +6986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -7031,7 +7040,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D9")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -7063,7 +7072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 72.39 181.61 0)
 			(effects
 				(font
@@ -7094,10 +7103,10 @@
 			(uuid "9550d0ee-3cd7-4fc5-b9c9-8486c9a48134")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db01b")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164716")
 		)
 		(pin "1"
 			(uuid "b9732abb-add6-4009-a075-7f6596172f62")
@@ -7121,7 +7130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2bc6a94-97ab-4561-8792-955515e61fd3")
-		(property "Reference" "D34"
+		(property "Reference" "D24"
 			(at 138.43 126.9999 90)
 			(effects
 				(font
@@ -7139,7 +7148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -7193,7 +7202,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D34")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -7225,7 +7234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 54.61 181.61 0)
 			(effects
 				(font
@@ -7256,10 +7265,10 @@
 			(uuid "991ff905-ff1c-43b6-8f79-f82ca616dbd4")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db006")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db01c")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164701")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164717")
 		)
 		(pin "1"
 			(uuid "88957732-ffee-4c80-91e7-7f4058d7da89")
@@ -7283,7 +7292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7823e54-d948-4b9a-a441-705de15d1cd2")
-		(property "Reference" "SW27"
+		(property "Reference" "SW22"
 			(at 93.98 115.57 0)
 			(effects
 				(font
@@ -7299,7 +7308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -7330,10 +7339,10 @@
 			(uuid "a3f82b04-98c5-4c4c-8f90-6c4c9d183332")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db00c")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db01d")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164707")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164718")
 		)
 		(pin "1"
 			(uuid "0c0be004-24fd-4ad9-9e91-726ad985fd65")
@@ -7341,7 +7350,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW27")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -7357,7 +7366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ebfde7-0c9a-412a-8add-c90e26cf4e1a")
-		(property "Reference" "SW21"
+		(property "Reference" "SW20"
 			(at 54.61 115.57 0)
 			(effects
 				(font
@@ -7373,7 +7382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -7404,10 +7413,10 @@
 			(uuid "d9b10660-2b46-499f-963a-7a44cd1ec0ee")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db015")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db01e")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164710")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164719")
 		)
 		(pin "1"
 			(uuid "2df31a2a-b2e9-4f27-bc25-4b09de36940f")
@@ -7415,7 +7424,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW21")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -7431,7 +7440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be905f7c-5fcd-4b4d-a816-e2fd5b7cd417")
-		(property "Reference" "D19"
+		(property "Reference" "D17"
 			(at 119.38 93.9799 90)
 			(effects
 				(font
@@ -7449,7 +7458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -7503,7 +7512,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D19")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7519,7 +7528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c393fc6d-7f22-46ae-b6c2-2e38f91f478e")
-		(property "Reference" "SW23"
+		(property "Reference" "SW31"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -7535,7 +7544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -7566,10 +7575,10 @@
 			(uuid "cc3dc0c1-0068-4d1b-b4eb-19e644609554")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db007")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db01f")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164702")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816471a")
 		)
 		(pin "1"
 			(uuid "5aabcab9-cecd-44c3-8ee1-adbb129592df")
@@ -7577,7 +7586,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW23")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -7593,7 +7602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f8568f-ccf6-4b34-8199-e799f33b748b")
-		(property "Reference" "D32"
+		(property "Reference" "D34"
 			(at 120.65 163.8299 90)
 			(effects
 				(font
@@ -7611,7 +7620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 118.11 165.1 0)
 			(effects
 				(font
@@ -7665,7 +7674,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D32")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -7681,7 +7690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb789297-0471-426d-8ed1-c13e1534f53d")
-		(property "Reference" "SW24"
+		(property "Reference" "SW21"
 			(at 74.93 115.57 0)
 			(effects
 				(font
@@ -7697,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 74.93 124.46 0)
 			(effects
 				(font
@@ -7728,10 +7737,10 @@
 			(uuid "3a400469-9f06-4af4-940c-8a8817f240cd")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db014")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db020")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470f")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816471b")
 		)
 		(pin "1"
 			(uuid "4a69d9da-98ee-4d60-af97-44f5eed765d4")
@@ -7739,7 +7748,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW24")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7755,7 +7764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc7966f5-3165-43ed-bfea-472e6def0828")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 137.16 55.8799 90)
 			(effects
 				(font
@@ -7773,7 +7782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -7827,7 +7836,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce4c5585-e20b-498d-9262-bc208866fd08")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 137.16 93.9799 90)
 			(effects
 				(font
@@ -7861,7 +7870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -7915,7 +7924,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -7931,7 +7940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c6c658-ac46-4a04-9d6f-5d66dc11e8d7")
-		(property "Reference" "SW30"
+		(property "Reference" "SW23"
 			(at 113.03 115.57 0)
 			(effects
 				(font
@@ -7947,7 +7956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 113.03 124.46 0)
 			(effects
 				(font
@@ -7978,10 +7987,10 @@
 			(uuid "61ff1420-2fe5-4a04-8716-b1e38267742d")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db00d")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db021")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164708")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816471c")
 		)
 		(pin "1"
 			(uuid "e5205296-be16-4de2-9a4b-d002f67d9967")
@@ -7989,7 +7998,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW30")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -8005,7 +8014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb813c2-29a5-471d-8353-7cf27d5a7e6b")
-		(property "Reference" "SW8"
+		(property "Reference" "SW9"
 			(at 92.71 44.45 0)
 			(effects
 				(font
@@ -8021,7 +8030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 92.71 53.34 0)
 			(effects
 				(font
@@ -8052,10 +8061,10 @@
 			(uuid "d24e0734-17ce-4baa-83ff-3301e1419a88")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db004")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db022")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646ff")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816471d")
 		)
 		(pin "1"
 			(uuid "0f02e023-56c5-4c5d-aad8-cf139ea33dd5")
@@ -8063,7 +8072,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW8")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df725d2f-cd01-48c4-9138-59ef74a6ce02")
-		(property "Reference" "SW35"
+		(property "Reference" "SW29"
 			(at 130.81 133.35 0)
 			(effects
 				(font
@@ -8095,7 +8104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 130.81 142.24 0)
 			(effects
 				(font
@@ -8126,10 +8135,10 @@
 			(uuid "7d176da0-3907-4c4a-8851-77fd9ad6a317")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db004")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db023")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646ff")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816471e")
 		)
 		(pin "1"
 			(uuid "4c882e3a-ba80-43cf-8991-4a3e1c5f252b")
@@ -8137,7 +8146,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW35")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e82bdb26-0aed-4cae-8867-b72026b08471")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 92.71 26.67 0)
 			(effects
 				(font
@@ -8169,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 92.71 35.56 0)
 			(effects
 				(font
@@ -8200,10 +8209,10 @@
 			(uuid "1543eef5-3786-4aa6-91c7-1cbd09212e58")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db005")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db024")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-858208164700")
+			(uuid "f3b7bd54-72eb-4417-a9ea-85820816471f")
 		)
 		(pin "1"
 			(uuid "41078d1b-b832-4979-be61-68b379cc4a1c")
@@ -8211,7 +8220,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8227,7 +8236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d70eda-59d3-40e6-b671-670ed128170a")
-		(property "Reference" "SW3"
+		(property "Reference" "SW12"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -8243,7 +8252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -8274,10 +8283,10 @@
 			(uuid "39eef1ff-6f30-4b0e-8e6e-9e9211f454a3")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db003")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db025")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646fe")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164720")
 		)
 		(pin "1"
 			(uuid "5dfae4c1-d467-4c23-9299-66e8875ca36b")
@@ -8285,7 +8294,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW3")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d86f6b-7f55-4f21-90f1-918cfd7e2f63")
-		(property "Reference" "D35"
+		(property "Reference" "D29"
 			(at 138.43 144.7799 90)
 			(effects
 				(font
@@ -8319,7 +8328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -8373,7 +8382,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D35")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -8389,7 +8398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed8ce867-7074-4b2c-b1d5-8ba75cdb14d8")
-		(property "Reference" "D36"
+		(property "Reference" "D35"
 			(at 138.43 163.8299 90)
 			(effects
 				(font
@@ -8407,7 +8416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 135.89 165.1 0)
 			(effects
 				(font
@@ -8461,7 +8470,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D36")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -8477,7 +8486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef355bd7-f1e5-4e59-b4ae-a354805fa22d")
-		(property "Reference" "D6"
+		(property "Reference" "D13"
 			(at 81.28 74.9299 90)
 			(effects
 				(font
@@ -8495,7 +8504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -8549,7 +8558,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D6")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "effe455f-36ff-4658-9d31-4d616e7d3cf3")
-		(property "Reference" "D24"
+		(property "Reference" "D21"
 			(at 82.55 126.9999 90)
 			(effects
 				(font
@@ -8583,7 +8592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -8637,7 +8646,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D24")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -8653,7 +8662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f02f8ad6-5673-4f25-abab-a125f03dbd96")
-		(property "Reference" "D25"
+		(property "Reference" "D26"
 			(at 82.55 144.7799 90)
 			(effects
 				(font
@@ -8671,7 +8680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -8725,7 +8734,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D25")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d91bfc-f059-4bc8-8b9c-5a900a80fb9c")
-		(property "Reference" "SW5"
+		(property "Reference" "SW8"
 			(at 73.66 44.45 0)
 			(effects
 				(font
@@ -8757,7 +8766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 73.66 53.34 0)
 			(effects
 				(font
@@ -8788,10 +8797,10 @@
 			(uuid "8b1b7c56-ec13-44dc-a4eb-928deb7185d6")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db004")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db026")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-8582081646ff")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164721")
 		)
 		(pin "1"
 			(uuid "fd2c0378-a67e-4d4f-a687-bac5621e28b0")
@@ -8799,7 +8808,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW5")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -8939,7 +8948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f506a0ee-9788-4668-84dc-b91540fe5325")
-		(property "Reference" "SW22"
+		(property "Reference" "SW25"
 			(at 54.61 133.35 0)
 			(effects
 				(font
@@ -8955,7 +8964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -8986,10 +8995,10 @@
 			(uuid "fa1ff517-145a-4a46-9318-e6436f2abbd9")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db013")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db027")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470e")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164722")
 		)
 		(pin "1"
 			(uuid "b3a8dc01-2740-487a-a0e3-eb6328e4a2a0")
@@ -8997,7 +9006,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW22")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -9013,7 +9022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f59ee353-044d-432e-becf-d2c9eb623bae")
-		(property "Reference" "SW25"
+		(property "Reference" "SW26"
 			(at 74.93 133.35 0)
 			(effects
 				(font
@@ -9029,7 +9038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_PG1350"
+		(property "Footprint" "Keebio-Parts.pretty-master:Kailh-PG1350-1u-NoLED"
 			(at 74.93 142.24 0)
 			(effects
 				(font
@@ -9060,10 +9069,10 @@
 			(uuid "a1de420c-febc-4892-b2f9-74e07185b0d9")
 		)
 		(pin "3"
-			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db012")
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db028")
 		)
 		(pin "4"
-			(uuid "f3b7bd54-72eb-4417-a9ea-85820816470d")
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164723")
 		)
 		(pin "1"
 			(uuid "47be880d-a9ef-4ded-b9d6-dc90d067d54f")
@@ -9071,7 +9080,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "SW25")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -9211,7 +9220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1f251f-10b3-4228-b543-1f03ed7d5e05")
-		(property "Reference" "D22"
+		(property "Reference" "D25"
 			(at 62.23 144.7799 90)
 			(effects
 				(font
@@ -9229,7 +9238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
 			(at 59.69 146.05 0)
 			(effects
 				(font
@@ -9283,7 +9292,7 @@
 		(instances
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
-					(reference "D22")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -9294,4 +9303,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
