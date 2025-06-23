@@ -1,4 +1,4 @@
-26303451457388767
+26316615420216875
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -67305,6 +67305,13 @@ D_SOD123F
 2
 2
 Keebio-Parts.pretty-master
+D_SOD123F-Hole
+
+
+0
+2
+2
+Keebio-Parts.pretty-master
 Diode
 
 
@@ -96363,6 +96370,13 @@ rotary encoder illuminated switch vertical
 8
 Seeeduino XIAO KICAD
 Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
+Seeeduino XIAO KICAD
+Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM-holes
 
 
 0

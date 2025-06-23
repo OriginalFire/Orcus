@@ -2996,7 +2996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 77.47 185.42 0)
 			(effects
 				(font
@@ -3158,7 +3158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 152.4 95.25 0)
 			(effects
 				(font
@@ -3320,7 +3320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -3408,7 +3408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 116.84 57.15 0)
 			(effects
 				(font
@@ -3496,7 +3496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 58.42 76.2 0)
 			(effects
 				(font
@@ -3806,7 +3806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -4042,7 +4042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 116.84 39.37 0)
 			(effects
 				(font
@@ -4426,7 +4426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -4514,7 +4514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 41.91 185.42 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 99.06 165.1 0)
 			(effects
 				(font
@@ -4926,7 +4926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 59.69 185.42 0)
 			(effects
 				(font
@@ -5014,7 +5014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -5176,7 +5176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -5338,7 +5338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -5426,7 +5426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 80.01 165.1 0)
 			(effects
 				(font
@@ -5514,7 +5514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 36.83 57.15 0)
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 59.69 128.27 0)
 			(effects
 				(font
@@ -5838,7 +5838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 134.62 39.37 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 116.84 76.2 0)
 			(effects
 				(font
@@ -6384,7 +6384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 78.74 57.15 0)
 			(effects
 				(font
@@ -6546,7 +6546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 156.21 146.05 0)
 			(effects
 				(font
@@ -6634,7 +6634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -6722,7 +6722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 99.06 128.27 0)
 			(effects
 				(font
@@ -6810,7 +6810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 59.69 165.1 0)
 			(effects
 				(font
@@ -6898,7 +6898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 118.11 146.05 0)
 			(effects
 				(font
@@ -6986,7 +6986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -7148,7 +7148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -7458,7 +7458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -7620,7 +7620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 118.11 165.1 0)
 			(effects
 				(font
@@ -7782,7 +7782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -7870,7 +7870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -8416,7 +8416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 135.89 165.1 0)
 			(effects
 				(font
@@ -8504,7 +8504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -8592,7 +8592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -8680,7 +8680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -8842,7 +8842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeeduino XIAO KICAD:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM"
+		(property "Footprint" "Seeeduino XIAO KICAD:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM-holes"
 			(at 222.25 130.81 0)
 			(effects
 				(font
@@ -9114,7 +9114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeeduino XIAO KICAD:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM"
+		(property "Footprint" "Seeeduino XIAO KICAD:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM-holes"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -9238,7 +9238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123-Hole"
+		(property "Footprint" "Keebio-Parts.pretty-master:D_SOD123F-Hole"
 			(at 59.69 146.05 0)
 			(effects
 				(font
