@@ -14,4 +14,5 @@
   (lib (name "Template")(type "KiCad")(uri "${KIPRJMOD}/Library/Footprints/MX_V2-main/Template.pretty")(options "")(descr ""))
   (lib (name "Seeeduino XIAO KICAD")(type "KiCad")(uri "${KIPRJMOD}/Library/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD")(options "")(descr ""))
   (lib (name "keyswitches.pretty-master")(type "KiCad")(uri "${KIPRJMOD}/Library/Footprints/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name "TOTEMlib")(type "KiCad")(uri "${KIPRJMOD}/Library/TOTEMlib.pretty")(options "")(descr ""))
 )

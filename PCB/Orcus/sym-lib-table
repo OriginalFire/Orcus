@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/Library/Symbols/keebio-components-master/keebio.lib")(options "")(descr ""))
   (lib (name "Seeeduino XIAO")(type "Legacy")(uri "${KIPRJMOD}/Library/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name "MCU_SEEED_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/Library/SeeedStudio_XIAO_nRF52840_v1.1_KiCAD/MCU_SEEED_XIAO_Series.kicad_sym")(options "")(descr ""))
 )

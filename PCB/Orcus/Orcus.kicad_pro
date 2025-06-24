@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.016,
+          "height": 1.397,
+          "width": 1.397
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|132311863|53148442|95bbc4f2-fa31-4348-ab90-38aff79b7f94|3761c98d-ff21-4af4-876e-b170fcce6ff0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|132997663|54875642|2c922a53-358b-4f99-9d32-d87b64de66a1|c0c619f0-23f9-4ab2-b390-d78a35c09ca9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135486863|48474842|179a1ef1-d182-4997-b085-5a69f1dc37a8|a26b88d1-1f0e-4689-8baf-786b55bf88c3",
+          ""
+        ],
+        [
+          "copper_edge_clearance|136172663|46112642|48ddeb13-530f-48a7-83fd-676d3f2b93a0|53883c0e-8d81-4141-b6c2-9720361dfcd7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|137849063|46112642|48ddeb13-530f-48a7-83fd-676d3f2b93a0|209bc8df-ddf1-436f-a9f4-d4a0cd94f2ba",
+          ""
+        ],
+        [
+          "copper_edge_clearance|137849063|49160642|ba59c0ab-be1e-480c-b3fc-aa7590b937f9|de1d35ea-32df-433b-b684-a09a6ff9b01d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|153611863|53148442|bf3d23f9-9c92-4599-9852-fd7cafd2edd1|b47465a5-e76a-4ac7-b695-e1d3a1164668",
+          ""
+        ],
+        [
+          "copper_edge_clearance|153611863|54189842|bf3d23f9-9c92-4599-9852-fd7cafd2edd1|caa1607c-b7dc-4d38-ab3b-c089a99f30b8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|156786863|46798442|e1958ef9-443c-4654-8ad0-265c33c8889a|6c26d49d-0669-4c7e-8938-a34c720558ca",
+          ""
+        ],
+        [
+          "copper_edge_clearance|156786863|48474842|e1958ef9-443c-4654-8ad0-265c33c8889a|6e3ea491-5279-4339-bfe7-14abeec015cc",
+          ""
+        ],
+        [
+          "copper_edge_clearance|159149063|46112642|b0a1ae46-9ca4-4535-875e-7a7478bdb683|5a4b365c-7bf2-42dd-b77d-70847b19a593",
+          ""
+        ],
+        [
+          "copper_edge_clearance|159149063|49160642|6372cc23-a38e-4cce-ab1f-4103b825650c|f506b216-d905-49de-ad15-d20bec20fa66",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },

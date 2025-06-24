@@ -1,0 +1,102 @@
+(footprint "NeoPixel_Mini_Button-v2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Footprint for NeoPixel Mini Button PCB (e.g., Adafruit #4357)")
+	(tags "neopixel addressable led mini button pcb ws2812b")
+	(property "Reference" "J5"
+		(at 0 -6 180)
+		(layer "F.SilkS")
+		(uuid "3237c40b-71f4-4f11-86b0-eb907bf0a60a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x03_Pin"
+		(at 0 6 180)
+		(layer "F.Fab")
+		(uuid "340779d5-929d-4176-949b-0be92f386091")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6a90942-7484-48b3-b8fa-9478239d38d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x03, script generated"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12dd5326-69c2-43de-830c-f3a0dc5073c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.77 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4f536b1b-4659-486a-aa0f-df8b69699a63")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "39ea9b6c-a791-420d-9f8e-f80f138f8587")
+	)
+	(pad "1" thru_hole rect
+		(at -2.2 -3.5)
+		(size 1.2 3.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ee70638-78cf-477c-b08c-a5bf55a59948")
+	)
+	(pad "2" thru_hole rect
+		(at 0 -3.5)
+		(size 1.2 3.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "842753b3-1689-4518-bb35-597a0c429fb9")
+	)
+	(pad "3" thru_hole rect
+		(at 2.2 -3.5)
+		(size 1.2 3.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "759bf388-9b7d-4397-889f-b41c6b2c0ad5")
+	)
+	(embedded_fonts no)
+)
