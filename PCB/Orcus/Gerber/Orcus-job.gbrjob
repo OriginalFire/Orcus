@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-06-24T00:04:00-06:00"
+    "CreationDate": "2025-06-24T00:15:16-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -74,6 +74,11 @@
     {
       "Path": "Orcus-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Orcus-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     }
   ],
