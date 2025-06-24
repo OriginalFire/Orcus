@@ -6626,7 +6626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TOTEMlib:BatteryPad"
+		(property "Footprint" "Keebio-Parts.pretty-master:Wire_Pad_24AWG"
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -6926,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TOTEMlib:BatteryPad"
+		(property "Footprint" "Keebio-Parts.pretty-master:Wire_Pad_24AWG"
 			(at 218.44 158.75 0)
 			(effects
 				(font
@@ -8590,7 +8590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TOTEMlib:BatteryPad"
+		(property "Footprint" "Keebio-Parts.pretty-master:Wire_Pad_24AWG"
 			(at 218.44 85.09 0)
 			(effects
 				(font
@@ -9595,7 +9595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TOTEMlib:BatteryPad"
+		(property "Footprint" "Keebio-Parts.pretty-master:Wire_Pad_24AWG"
 			(at 222.25 158.75 0)
 			(effects
 				(font
