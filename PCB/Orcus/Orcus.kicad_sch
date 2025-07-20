@@ -1478,6 +1478,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 142.24) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d2d8e5-e57d-4a53-ac90-0adf86b1e4b1")
+	)
+	(wire
+		(pts
 			(xy 26.67 40.64) (xy 46.99 40.64)
 		)
 		(stroke
@@ -1515,6 +1525,16 @@
 			(type default)
 		)
 		(uuid "6fcc228c-38e5-4be1-bfb3-782e5a2c5a12")
+	)
+	(wire
+		(pts
+			(xy 92.71 142.24) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73132087-2159-46ad-9e0a-b90e1a96924e")
 	)
 	(wire
 		(pts
@@ -1635,6 +1655,16 @@
 			(type default)
 		)
 		(uuid "8d333f06-957b-4c3b-bf7b-05fd5ab568a5")
+	)
+	(wire
+		(pts
+			(xy 193.04 140.97) (xy 193.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d59fe37-8791-4443-81ec-c2180a6b93e3")
 	)
 	(wire
 		(pts
@@ -1825,6 +1855,16 @@
 			(type default)
 		)
 		(uuid "ce186aaf-5413-4467-9854-3ec3dd2a3d15")
+	)
+	(wire
+		(pts
+			(xy 203.2 140.97) (xy 203.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3c129f-3dfd-4f8c-b95f-ce6871940940")
 	)
 	(wire
 		(pts
@@ -3262,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_LED"
+		(property "Value" "RESET"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -5176,6 +5216,80 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
+		(at 97.79 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf04efc-d469-4170-a863-01a35d95facc")
+		(property "Reference" "SW41"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:Reset_Breakout"
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8c4aeda-230b-46a5-868c-38f2c692f089")
+		)
+		(pin "3"
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db007")
+		)
+		(pin "4"
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164702")
+		)
+		(pin "1"
+			(uuid "562bc756-0e72-40e7-9290-5b8388b8a05d")
+		)
+		(instances
+			(project "Orcus"
+				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
 		(at 80.01 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5266,7 +5380,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_LED"
+		(property "Value" "RESET"
 			(at 198.12 121.92 0)
 			(effects
 				(font
@@ -6635,6 +6749,80 @@
 		)
 	)
 	(symbol
+		(lib_id "keebio:MX_LED")
+		(at 198.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "957c3e69-2b45-42aa-923d-7b62245d178d")
+		(property "Reference" "SW43"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT"
+			(at 198.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:Reset_Breakout"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3316495e-d8bb-42e8-934e-85d84ce7b290")
+		)
+		(pin "3"
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db007")
+		)
+		(pin "4"
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164702")
+		)
+		(pin "1"
+			(uuid "1830430e-18b3-473b-9c83-0b648d11dd0c")
+		)
+		(instances
+			(project "Orcus"
+				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 276.86 92.71 90)
 		(unit 1)
@@ -7085,6 +7273,80 @@
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
+		(at 198.12 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4278ab4-c8e0-44d6-9148-c0d58ee28019")
+		(property "Reference" "SW44"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT"
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:Reset_Breakout"
+			(at 198.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0280875-e7ac-4c39-9b7c-e182919e9a07")
+		)
+		(pin "3"
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db008")
+		)
+		(pin "4"
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164703")
+		)
+		(pin "1"
+			(uuid "23a688f8-a776-46a0-938b-75b518ed5c7f")
+		)
+		(instances
+			(project "Orcus"
+				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -8293,6 +8555,80 @@
 			(project "Orcus"
 				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
+		(at 97.79 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df56e8f3-39f9-4828-aa53-59cb0d1a760a")
+		(property "Reference" "SW42"
+			(at 97.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT"
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:Reset_Breakout"
+			(at 97.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dedc175-2b37-45f8-809f-4a4928501af9")
+		)
+		(pin "3"
+			(uuid "0f76ddef-8ce8-4175-98b5-ecd1eb9db007")
+		)
+		(pin "4"
+			(uuid "f3b7bd54-72eb-4417-a9ea-858208164702")
+		)
+		(pin "1"
+			(uuid "a6557771-9cf5-4210-a787-ccdafb3d2276")
+		)
+		(instances
+			(project "Orcus"
+				(path "/6636fbe7-3fdd-43b4-bb6a-6fecaad42c7d"
+					(reference "SW42")
 					(unit 1)
 				)
 			)
